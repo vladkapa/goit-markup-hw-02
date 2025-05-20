@@ -1,9 +1,21 @@
 /* Varibles */
 :root {
   --main-font: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
   --main-size: 14px;
   --main-color: #111111;
-  --white-color: #ffffff;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #ffffff;
+  --dairy: #fcfcfc;
 }
 
 /* reset */
@@ -59,3 +71,116 @@ ul {
 }
 
 /* === body === */
+/* header */
+.page-header {
+}
+.container {
+}
+.page-header-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  width: 261px;
+  height: 24px;
+}
+.page-header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+}
+
+.page-header-logo span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.page-header-list {
+  display: flex;
+  gap: 40px;
+}
+.list {
+}
+.page-header-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.page-header-adress {
+}
+.header-adress-list {
+}
+.header-adress-item {
+}
+.header-adress-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.header-adress-link:hover,
+.header-adress-link:focus {
+  color: var(--ocean);
+}
+
+.page-header-item:hover,
+.page-header-item:focus {
+  color: var(--ocean);
+}
+/* /header */
+
+/* hero image */
+.page-hero {
+  background: var(--navy-blue)
+  border-radius: 30px;
+  min-height: 600px;
+}
+.container {
+}
+.hero-title {
+  font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--white);
+}
+.hero-button {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 10px;
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: var(--iris);
+cursor: pointer;
+}
+
+.hero-button:hover {
+  color: var(--ocean);
+}
+
+.hero-button span {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white);
+}
+
+
