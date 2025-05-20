@@ -1,0 +1,61 @@
+/* Varibles */
+:root {
+  --main-font: "Roboto", sans-serif;
+  --main-size: 14px;
+  --main-color: #111111;
+  --white-color: #ffffff;
+}
+
+/* reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 320px;
+  width: 100%;
+  padding: 0 20px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* base style */
+body {
+  font-family: var(--main-font);
+  font-size: var(--main-size);
+  color: var(--main-color);
+  background-color: var(--white-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* === body === */
