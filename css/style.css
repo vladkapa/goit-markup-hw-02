@@ -50,6 +50,11 @@ body {
 .page-header-adress {
   font-style: normal;
 }
+
+.header-adress-link {
+  color: #434455;
+}
+
 .header-adress-link:hover {
   color: #404bbf;
 }
