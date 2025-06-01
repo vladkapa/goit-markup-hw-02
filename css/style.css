@@ -32,6 +32,7 @@ body {
 }
 .page-header-link {
   font-weight: 500;
+  font-style: normal;
   color: #2e2f42;
 }
 .page-header-link:hover,
@@ -49,16 +50,12 @@ body {
 .page-header-adress {
   font-style: normal;
 }
-.page-header-link {
-  font-style: normal;
-  font-weight: 400;
-  color: #434455;
-}
-.page-header-link:hover,
-.page-header-link:focus {
+.header-adress-link:hover {
   color: #404bbf;
 }
-
+.header-adress-link:focus {
+  color: #404bbf;
+}
 .page-header-adress li {
   list-style-type: none;
 }
