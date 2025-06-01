@@ -83,38 +83,59 @@ ul {
 
 /* === body === */
 /* header */
-.page-header-adress {
-  font-style: normal;
+.page-header :focus,
+.page-header:active {
+  border: 1px #e7e9fc;
+}
+.page-header :hover {
+  border: 2px #e7e9fc;
 }
 
+.page-header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
 .page-header-logo-span {
   color: #2e2f42;
 }
 
-.page-header-link {
+.page-header-nav ul {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+}
+.page-header-nav li {
+  list-style-type: none;
+}
+.page-header-link {
   color: #2e2f42;
 }
-
 .page-header-link:hover,
 .page-header-link:focus {
   color: #404bbf;
 }
 
+.page-header-adress {
+  font-style: normal;
+}
 .header-adress-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 400;
   color: #434455;
 }
-
 .header-adress-link:hover,
 .header-adress-link:focus {
   color: #404bbf;
 }
+
+.page-header-adress li {
+  list-style-type: none;
+}
+
 /* /header */
 
 /* hero image */
